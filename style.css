@@ -30,6 +30,24 @@ h1, h2 {
     color: #333;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.center {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Add margin to create space between image and text */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 footer {
     background-color: #333;
     color: #fff;
@@ -38,9 +56,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
 }
