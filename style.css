@@ -2,11 +2,11 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #2d95aa;
 }
 
 header {
-    background-color: #159931;
+    background-color: #eecd54;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -55,7 +55,7 @@ p {
     width: 30%;
     padding: 10px;
     border: 1px solid #ccc;
-    background-color: #fff;
+    background-color: #1fe7c2;
     transition: transform 0.3s;
 }
 
@@ -116,7 +116,7 @@ footer {
     margin-bottom: 40px;
     padding: 20px;
     border: 1px solid #ccc;
-    background-color: #fff;
+    background-color: #ce6767;
     border-radius: 10px;
     transition: transform 0.3s;
 }
