@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -22,25 +22,48 @@ main {
     padding: 20px;
 }
 
-h1 {
-    color: #ffffff;
-}
-
 h1, h2 {
     color: #333;
 }
 
-.container {
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.bio-container, .mission-container {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.image-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
+    width: 40%;
 }
 
 .center {
     max-width: 100%;
     height: auto;
-    margin-bottom: 20px; /* Add margin to create space between image and text */
+    border: 5px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 5px solid #ccc;
+    background-color: #eee;
+    font-style: italic;
+    text-align: center;
 }
 
 img {
