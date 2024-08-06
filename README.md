@@ -7,13 +7,13 @@ This is a simple personal website to showcase who I am. The site has persistent 
 The landing page includes:
 - A photo
 - A mission statement
-- A quote about family
+- A quote about loving life from Bob Marley
 
 ## About Page
 
 The about page includes:
-- My interests
-- My Skills
+- My interests w/ image
+- My Skills w/ image
 
 ## Portfolio Page
 
