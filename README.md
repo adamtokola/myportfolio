@@ -1,6 +1,6 @@
 # My Portfolio
 
-This is a simple personal website to showcase who I am, what I am about, and what I have accomplished. The site has persistent headers with 3 page links: the Home Page, the About Page, and the Portfolio Page.
+This is a simple personal website to showcase who I am. The site has persistent headers with 3 page links: the Home Page, the About Page, and the Portfolio Page.
 
 ## Home Page
 
