@@ -34,7 +34,7 @@ h1, h2 {
     gap: 20px;
 }
 
-.bio-container, .mission-container {
+.bio-container, .mission-container, .proj-container {
     width: 30%;
     padding: 10px;
     border: 1px solid #ccc;
