@@ -7,21 +7,23 @@
     <title>Document</title>
   </head>
   <body>
-    <h2>Contact Me</h2>
-    <form action="submit_form.php" method="POST">
+    <div class="contact">
+        <h2>Contact Me</h2>
+    <form action="" method="get">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
         
         <label for="email">Email:</label><br>
         <input type="text" id="email" name="email" required><br><br>
         
-        <label for="subject">Subject:</label><br>
+        <!-- <label for="subject">Subject:</label><br>
         <input type="text" id="subject" name="subject" required><br><br>
-        
+         -->
         <label for="message">Message</label><br>
         <textarea id="message" name="message" rows="4" required></textarea>
         
         <input type="submit" value="Submit">
     </form>
+    </div>
   </body>
 </html>
