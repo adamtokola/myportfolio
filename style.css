@@ -63,6 +63,13 @@ form {
     flex-direction: column;
 }
 
+.form-container {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
 label {
     margin-bottom: 5px;
     font-weight: bold;

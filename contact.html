@@ -7,23 +7,32 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="contact">
-        <h2>Contact Me</h2>
-    <form action="" method="get">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
-        
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email" required><br><br>
-        
-        <!-- <label for="subject">Subject:</label><br>
-        <input type="text" id="subject" name="subject" required><br><br>
-         -->
-        <label for="message">Message</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea>
-        
-        <input type="submit" value="Submit">
-    </form>
+    <header>
+      <h1>Contact Me</h1>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+      </nav>
+    </header>
+    <div class="form-container">
+      <div class="contact">
+        <form action="" method="get">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" required><br><br>
+            
+            <!-- <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject" required><br><br>
+             -->
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+        </div>
     </div>
   </body>
 </html>
